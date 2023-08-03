@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:pomodoro/screens/home_screen.dart';
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(const App());
@@ -14,12 +14,12 @@ class App extends StatelessWidget {
       theme: ThemeData(
         textTheme: const TextTheme(
           displayLarge: TextStyle(
-            color: Color(0xff232b55),
+            color: Color(0xffE64D3D),
           ),
         ),
-        cardColor: const Color(0xfff4eddb),
+        cardColor: Colors.white,
         colorScheme: ColorScheme.fromSwatch(
-          backgroundColor: const Color(0xffe7626c),
+          backgroundColor: const Color.fromARGB(255, 45, 153, 225),
         ),
       ),
       home: const HomeScreen(),
