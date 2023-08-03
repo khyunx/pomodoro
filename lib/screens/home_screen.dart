@@ -148,7 +148,7 @@ class _HomeScreenState extends State<HomeScreen> {
             Flexible(
               flex: 1,
               child: Transform.translate(
-                offset: const Offset(0, 10),
+                offset: const Offset(15, 10),
                 child: Container(
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.start,
@@ -181,7 +181,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
-                        horizontal: 58, vertical: 20),
+                        horizontal: 50, vertical: 20),
                     child: Text(
                       format(totalSeconds),
                       style: TextStyle(
